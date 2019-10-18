@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../Images/background1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.sidebar {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4a4a4a;
+  overflow-x: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding: 10% 0px;
+}
+
+.sidebar li {
+  list-style-type: none;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  -webkit-transform: translateX(-10%);
+          transform: translateX(-10%);
+}
+
+.sidebar a:hover {
+  background-color: #a7a7a7;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+}
+
+.openbtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 38px;
+  margin-left: 50px;
+  color: white;
+}
+
+div.mainmenu {
+  width: 100%;
+  float: right;
+  margin: 0;
+}
+
+div.mainmenu .items {
+  margin-top: 100px;
+  width: 75%;
+  float: right;
+}
+
+div.mainmenu .Images {
+  height: 100%;
+  background-color: #4a4a4a;
+  padding: 120px 80px;
+  float: left;
+  margin: 20px 30px;
+  text-align: center;
+}
+
+.pop-up {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  z-index: 2;
+  padding: 200px 400px;
+  background-color: #afafaf;
+  opacity: 0;
+  border: 3px solid #3d3d3d;
+  font-size: 30px;
+}
+
+li.controlled {
+  background-color: #a7a7a7;
+}
+/*# sourceMappingURL=main.css.map */
